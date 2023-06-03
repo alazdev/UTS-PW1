@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio</title>
+    <!-- Style CSS untuk memperbagus antarmuka HTML -->
+    <link rel="stylesheet" href="./assets/css/style-portfolio.css">
+</head>
+<body>
+    <!-- Semantic <main> untuk membungkus isi dari elements yang berhubungan dengan isi dari sebuah halaman website -->
+    <main>
+        <div class="container">
+            <!-- Content bagian kiri -->
+            <div class="content" id="content-left">
+                <div class="section">
+                    <!-- Section Foto Profile -->
+                    <!-- Wrapper image yang berfungsi menampung gambar agar tidak keluar dari batas yang ditentukan -->
+                    <div class="image-wrapper">
+                        <img src="./assets/img/photo.jpg" alt="Foto Azim">
+                    </div>
+                    <!-- Section nama, kelas, dan informasi lain tentang mahasiswa -->
+                    <h1>AL AZIM</h1>
+                    <h2>IT-204</h2>
+                    <ul class="list-with-icon">
+                        <li>
+                            <a href="mailto:alazim.dev@gmail.com">
+                                <img src="./assets/icons/envelope.svg" alt="mail icon">
+                                alazim.dev@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://wa.we/6285223228094">
+                                <img src="./assets/icons/phone.svg" alt="mail icon">
+                                +62 852 2322 8094
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://aazdev.id">
+                                <img src="./assets/icons/globe-alt.svg" alt="mail icon">
+                                https://aazdev.id
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Section skills mahasiswa -->
+                <div class="section">
+                    <h2>SKILLS</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascripts</li>
+                        <li>PHP</li>
+                        <li>Laravel</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Content bagian kanan -->
+            <div class="content" id="content-right">
+                <!-- Section organisasi yang pernah diikuti -->
+                <div class="section">
+                    <h2>ORGANISASI YANG PERNAH DIIKUTI</h2>
+                    <table>
+                        <tr>
+                            <td><img src="./assets/icons/paper-airplane-solid.svg" alt="paper airplane icon"></td>
+                            <td>
+                                <p><strong>MAJELIS PERMUSYAWARATAN SEKOLAH</strong></p>
+                                <p><i>Februari 2018 - Februari 2020</i></p>
+                                <ul>
+                                    <li>Mengelola administrasi dan dokumentasi Majelis Permusyawaratan Sekolah.</li>
+                                    <li>Membantu dalam komunikasi antara anggota dengan pihak terkait.</li>
+                                    <li>Mengurus surat-menyurat dan dokumen resmi.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- Section pendidikan terakhir -->
+                <div class="section">
+                    <h2>PENDIDIKAN</h2>
+                    <table>
+                        <tr>
+                            <td><img src="./assets/icons/academic-cap-solid.svg" alt="academic cap icon"></td>
+                            <td>
+                                <p><strong>S1 PJJ TEKNIK INFORMATIKA</strong></p>
+                                <p>UNIVERSITAS SIBER ASIA</p>
+                                <p><i>TAHUN: 2026</i></p>
+                                <ul>
+                                    <li>Cumlaude</li>
+                                    <li>IPK 4.0</li>
+                                    <li>Pengembangan Aplikasi Manajemen Waktu Berbasis Web untuk Meningkatkan Produktivitas Pribadi</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- Section sertifikat keahlian -->
+                <div class="section">
+                    <h2>SERTIFIKAT KEAHLIAN</h2>
+                    <table>
+                        <tr>
+                            <td><img src="./assets/icons/check-badge-solid.svg" alt="badge icon"></td>
+                            <td>
+                                <p><strong>WORKSHOP LARAVEL</strong></p>
+                                <p><i>2019</i></p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
